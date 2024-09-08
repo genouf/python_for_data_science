@@ -23,6 +23,7 @@ def main():
         words = argv[1].split()
         words = list(ft_filter(lambda x: len_is_ok(x, int(argv[2])), words))
         print(words)
+
     except Exception:
         print("AssertionError: the arguments are bad")
         exit(1)
