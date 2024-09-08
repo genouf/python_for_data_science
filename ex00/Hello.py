@@ -8,8 +8,9 @@ ft_list[-1] = "World!"
 
 ft_tuple = ("Hello", "France!")
 
+ft_set.clear()
+ft_set.add("Hello")
 ft_set.add("Paris!")
-ft_set.remove("tutu!")
 
 ft_dict["Hello"] = "42Paris!"
 
