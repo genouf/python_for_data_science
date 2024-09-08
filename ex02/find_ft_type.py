@@ -16,5 +16,4 @@ def all_thing_is_obj(object: any) -> int:
             print("Toto is in the kitchen :", typeObject)
     else:
         print("Type not found")
-
     return 42
